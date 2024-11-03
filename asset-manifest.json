@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Personal-Portfolio/static/css/main.26a7407c.css",
+    "main.js": "/Personal-Portfolio/static/js/main.9cf31ca0.js",
+    "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/background.png": "/Personal-Portfolio/static/media/background.39ba13e43620d567af96.png",
+    "static/media/ProyectoTask.png": "/Personal-Portfolio/static/media/ProyectoTask.ef48153fd2db53ddd35c.png",
+    "static/media/Perfil.png": "/Personal-Portfolio/static/media/Perfil.e21d189717e67b162099.png",
+    "static/media/footer-bg.png": "/Personal-Portfolio/static/media/footer-bg.e8bda45e8a16ac6a6e18.png",
+    "static/media/ContactMe2.png": "/Personal-Portfolio/static/media/ContactMe2.64d668c074e8192d8652.png",
+    "static/media/AWS.png": "/Personal-Portfolio/static/media/AWS.4d8bd820a8394c968a88.png",
+    "static/media/p2Finance.png": "/Personal-Portfolio/static/media/p2Finance.efbcd075c421b77c79d4.png",
+    "static/media/postgresSQL.png": "/Personal-Portfolio/static/media/postgresSQL.9d976c631935f29f3a6e.png",
+    "static/media/Csharp.png": "/Personal-Portfolio/static/media/Csharp.456d41f630085700b5d8.png",
+    "static/media/CentraNo2-Bold.ttf": "/Personal-Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/Personal-Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/Personal-Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/Graficas.jpg": "/Personal-Portfolio/static/media/Graficas.b40d9b4bdae7ccf847c4.jpg",
+    "static/media/nodejs.png": "/Personal-Portfolio/static/media/nodejs.7b0f4700ed6ce39afdff.png",
+    "static/media/revicons.eot": "/Personal-Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Personal-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/React.png": "/Personal-Portfolio/static/media/React.98ff38735baa4c1b0381.png",
+    "static/media/revicons.woff": "/Personal-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/github-logo.svg": "/Personal-Portfolio/static/media/github-logo.61c1e35dcd6e0a18fbacfd342ff5e46d.svg",
+    "index.html": "/Personal-Portfolio/index.html",
+    "static/media/Youtube.svg": "/Personal-Portfolio/static/media/Youtube.8aafe5151e58a3e4135535f3da29deac.svg",
+    "static/media/linkedin-logo.svg": "/Personal-Portfolio/static/media/linkedin-logo.2a9a4b8f32bee7a4d49a3564275d78ec.svg",
+    "main.26a7407c.css.map": "/Personal-Portfolio/static/css/main.26a7407c.css.map",
+    "main.9cf31ca0.js.map": "/Personal-Portfolio/static/js/main.9cf31ca0.js.map",
+    "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26a7407c.css",
+    "static/js/main.9cf31ca0.js"
+  ]
+}
