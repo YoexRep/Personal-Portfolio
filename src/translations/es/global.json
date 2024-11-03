@@ -1,0 +1,70 @@
+{
+
+    "NavBar":{
+        "BtnHome": "Inicio",
+        "BtnSkills": "Habilidades",
+        "BtnProjects": "Proyectos",
+        "BtnContact": "Contacto"
+
+    },
+
+    "Banner":{
+        "BtnWelcome": "Bienvenido a mi portafolio",
+        "LblGretting": "Hola! soy Yoel,",
+        "LblDataRote": ["Desarrollador full stack."],
+        "LblDescription": "Ingeniero de sistemas con más de 3 años de experiencia en desarrollo web y aplicaciones de escritorio.",
+        "BtnCV": "Descargar mi CV"
+    },
+    "Skills":{
+          "LblSkills": "Habilidades",
+          "LblDescripcion": "A lo largo de mi carrera he aprendido varios lenguajes y herramientas de programación, para proyectos universitarios, mi trabajo como desarrollador junior en Swisher Dominicana y mi canal de YouTube, donde enseñaba programación."
+     
+
+       
+         
+        } ,"ProjectsContainer": {
+  "Title": "Proyectos"
+},
+
+"Projects": {
+  "BtnDeployProject": "Desplegar",
+
+  "TaskManager": {
+    "Title": "Gestor de Tareas",
+    "Description": "Con función de arrastrar y soltar.",
+    "Technologies": "Hecho con Next.js, Node.js y Amazon Web Services."
+  },
+
+  "P2Finance": {
+    "Title": "P2Finance",
+    "Description": "Gestor de comercio persona a persona",
+    "Technologies": "Hecho con React, Node.js y PostgreSQL."
+  },
+
+  "GraphBoard": {
+    "Title": "Tablero de Gráficas",
+    "Description": "Gestor de gráficos.",
+    "Technologies": "Hecho con Next.js, Node.js y Amazon Web Services."
+  }
+},
+"Contact": {
+  "Title": "Contáctame",
+  "InputFirstName": "Nombre",
+  "InputEmailAddress": "Correo electrónico",
+  "InputMessage": "Mensaje",
+   "BtnSend": "Enviar"
+ 
+}
+
+,
+
+"Footer":{
+    "LblCopyRight": "Copyright 2024. Todos los derechos reservados"
+  
+
+}
+
+    
+  
+
+}

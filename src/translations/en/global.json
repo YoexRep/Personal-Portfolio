@@ -1,0 +1,83 @@
+{
+
+    
+    "NavBar":{
+        "BtnHome": "Home",
+        "BtnSkills": "Skills",
+        "BtnProjects": "Projects",
+        "BtnContact": "Contact"
+
+    },
+    "Banner":{
+        "BtnWelcome": "Welcome to my portfolio",
+        "LblGretting": "Hi! I'm Yoel,",
+        "LblDataRote": ["Full stack software developer."],
+        "LblDescription": "Systems engineer with more than 3 years of experience in web develops and desktop applications.",
+        "BtnCV": "Download my CV"
+    },
+    "Skills":{
+          "LblSkills": "Skills",
+          "LblDescripcion": "Throughout my career, I've learned various programming languages and tools, for university projects, my work as a junior developer at Swisher Dominicana, and my YouTube channel, where I used to teach programming."
+     
+
+       
+         
+        },
+        "ProjectsContainer":{
+            "Title": "Projects"
+
+           
+          },
+
+          "Projects":{
+
+             "BtnDeployProject": "Deploy", 
+
+            "TaskManager":{
+
+                "Title": "Task Manager",
+                "Description": "With Drag and drop function.",
+                 "Technologies": "Made with nextjs, nodejs, and amazon web services."
+           
+   
+            },
+
+            "P2Finance":{
+
+                "Title": "P2Finance",
+                "Description": "Person-to-person commerce manager",
+                 "Technologies": "Made with React, nodejs, and postgresSQL."
+   
+            },
+
+            "GraphBoard":{
+
+                "Title": "Graph board",
+                "Description": "Graphics manager.",
+                 "Technologies": "Made with nextjs, nodejs, and amazon web services."
+           
+   
+            }
+
+       
+   
+          },
+          
+
+    "Contact":{
+        "Title": "Get In Touch",
+        "InputFirstName": "Name",
+        "InputEmailAddress": "Email address",
+        "InputMessage": "Message",
+        "BtnSend": "Send"
+  
+    
+    },
+    "Footer":{
+        "LblCopyRight": "Copyright 2024. All Rights Reserved"
+      
+    
+    }
+        
+
+}
