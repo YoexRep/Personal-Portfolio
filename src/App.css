@@ -90,13 +90,17 @@ p.danger {
 
 
 nav.navbar {
-  padding: 18px 0;
+  padding-top: 10px;
+  padding-bottom: 0px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+
+
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
@@ -196,6 +200,7 @@ nav.navbar .navbar-toggler:focus {
 	outline: none;
     box-shadow: none;
  
+ 
 }
 nav.navbar .navbar-toggler-icon {
   width: 24px;
@@ -205,6 +210,7 @@ nav.navbar .navbar-toggler-icon {
   border-bottom: 2px solid #fff;
   transition: all 300ms linear;
   top: -2px;
+ 
   
 }
 nav.navbar .navbar-toggler-icon:focus {
@@ -222,15 +228,18 @@ nav.navbar .navbar-toggler-icon:before {
 	content: '';
 	z-index: 2;
 	transition: all 300ms linear;
+
   
 }
 nav.navbar .navbar-toggler-icon:after {
 	top: 8px;
+
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	transform: rotate(45deg);
 	background-color: #fff;
 	height: 2px;
+
 
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
@@ -265,6 +274,15 @@ nav.navbar.menu-open {
   .banner {
     padding: 80px 0 100px 0; /* Elimina el padding en pantallas pequeñas */
   }
+}
+
+
+/* Para tablets y dispositivos más grandes */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner {
+    padding: 150px 0 100px 0; /* Ajusta el padding para tablets */
+  }
+  /* Agrega más estilos específicos para tablets aquí */
 }
 
 

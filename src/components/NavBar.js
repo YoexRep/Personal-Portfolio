@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import linkedinIcon from '../assets/img/linkedin-logo.svg';
 import githubIcon from '../assets/img/github-logo.svg';
@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import { TextField, MenuItem } from "@mui/material";
 
 export const NavBar = () => {
+  const navbarRef = useRef(null); // Crear un ref para el navbar
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,31 +26,71 @@ export const NavBar = () => {
       setScrolled(window.scrollY > 50);
     };
 
+    const handleClickOutside = (event) => {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setMenuOpen(false); // Cierra el menú si se hace clic fuera
+      }
+    };
+
     window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+    document.addEventListener("mousedown", handleClickOutside); // Cambiar a "mousedown" para captar mejor los clics
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    setMenuOpen(false); // Cerrar el menú al hacer clic en un enlace
   };
 
   const handleToggle = () => {
-    setMenuOpen(!menuOpen); // Cambiar el estado del menú
+    setMenuOpen(!menuOpen);
   };
 
   return (
     <Router>
-      <Navbar expand="md" className={`${scrolled ? "scrolled" : ""} ${menuOpen ? "menu-open" : ""}`}>
+      <Navbar
+        ref={navbarRef}
+        expand="md"
+        className={`${scrolled ? "scrolled" : ""} ${menuOpen ? "menu-open" : ""}`}
+      >
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}>
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" in={menuOpen}>
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>{textElement("NavBar.BtnHome")}</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>{textElement("NavBar.BtnSkills")}</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>{textElement("NavBar.BtnProjects")}</Nav.Link>
-              <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>{textElement("NavBar.BtnContact")}</Nav.Link>
+              <Nav.Link
+                href="#home"
+                className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
+                onClick={() => onUpdateActiveLink('home')}
+              >
+                {textElement("NavBar.BtnHome")}
+              </Nav.Link>
+              <Nav.Link
+                href="#skills"
+                className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
+                onClick={() => onUpdateActiveLink('skills')}
+              >
+                {textElement("NavBar.BtnSkills")}
+              </Nav.Link>
+              <Nav.Link
+                href="#projects"
+                className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
+                onClick={() => onUpdateActiveLink('projects')}
+              >
+                {textElement("NavBar.BtnProjects")}
+              </Nav.Link>
+              <Nav.Link
+                href="#connect"
+                className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'}
+                onClick={() => onUpdateActiveLink('connect')}
+              >
+                {textElement("NavBar.BtnContact")}
+              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
