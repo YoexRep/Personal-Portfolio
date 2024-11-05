@@ -66,7 +66,7 @@ export const Banner = () => {
 
 
                   {textElement("Banner.BtnCV") === "Download my CV" ?
-                        <a href="https://drive.google.com/uc?export=download&id=1lvzcusyZuTT1leuSkyUyb8cUF-c7CvfW" className="a-link-down" rel="noopener noreferrer" download>
+                        <a href="https://drive.google.com/file/d/1VJVV7IyLLNM339FSG9Ms_IXatUWZPhnK/view?usp=sharing" className="a-link-down" rel="noopener noreferrer" download>
                         <button>
                              {textElement("Banner.BtnCV")} <ArrowRightCircle size={25} />
                        </button>
@@ -75,7 +75,7 @@ export const Banner = () => {
                   
                   : 
                   
-                  <a href="https://drive.google.com/uc?export=download&id=1L2XUJuucFUZRm6miVHNKAzKXTET2aRcO" className="a-link-down" rel="noopener noreferrer" download>
+                  <a href="https://drive.google.com/file/d/1vyQvlrUfS61--DNwZiJcfKHoK53w1k-u/view?usp=sharing" className="a-link-down" rel="noopener noreferrer" download>
                   <button>
                        {textElement("Banner.BtnCV")} <ArrowRightCircle size={25} />
                  </button>
