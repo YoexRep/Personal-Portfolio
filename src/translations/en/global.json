@@ -31,7 +31,11 @@
 
           "Projects":{
 
-             "BtnDeployProject": "Deploy", 
+             "BtnOpenProject": "Open", 
+             "BtnDemoProject": "Demo", 
+             "BtnCodeProject": "Code", 
+             "BtnNoDemoProject": "Not available", 
+             "BtnNoCodeProject": "Private code", 
 
             "TaskManager":{
 

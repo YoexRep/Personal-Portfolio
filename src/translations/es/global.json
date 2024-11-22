@@ -27,7 +27,11 @@
 },
 
 "Projects": {
-  "BtnDeployProject": "Desplegar",
+  "BtnOpenProject": "Abrir",
+  "BtnDemoProject": "Probar", 
+  "BtnCodeProject": "Código", 
+  "BtnNoDemoProject": "No disponible", 
+  "BtnNoCodeProject": "Código privado", 
 
   "TaskManager": {
     "Title": "Gestor de Tareas",

@@ -6,6 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 import PostgresIcon from "../assets/img/postgresSQL.png";
 import NodeJsIcon from "../assets/img/nodejs.png";
 import CsharpIcon from "../assets/img/Csharp.png";
+import ReactNative from "../assets/img/ReactNative.png";
 
 
 import {useTranslation} from "react-i18next";
@@ -45,26 +46,32 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item" >
                                 <img src={reactImg} alt="Image"  className="carousel-image"   />
-                                <h5>React / nextjs</h5>
+                                <h5>React / Nextjs</h5>
                             </div>
                             <div className="item">
-                                <img src={AWS} alt="Image" className="carousel-image"/>
-                                <h5>Amazon web services</h5>
+                                <img src={CsharpIcon} alt="Image"  className="carousel-image"    />
+                                <h5>C# / Visual Studio</h5>
+                            </div>
+                            <div className="item">
+                                <img src={ReactNative} alt="Image"  className="carousel-image"    />
+                                <h5>React Native / Expo</h5>
                             </div>
                             <div className="item">
                                 <img src={NodeJsIcon} alt="Image"  className="carousel-image"    />
                                 <h5>NodeJs / Express</h5>
                             </div>
                             <div className="item">
+                                <img src={AWS} alt="Image" className="carousel-image"/>
+                                <h5>Amazon web services</h5>
+                            </div>
+                         
+                            <div className="item">
                                 <img src={PostgresIcon} alt="Image" className="carousel-image" />
                                 <h5>Postgres SQL</h5>
                             </div>
                           
 
-                            <div className="item">
-                                <img src={CsharpIcon} alt="Image"  className="carousel-image"    />
-                                <h5>C# / Visual Studio</h5>
-                            </div>
+                          
                         </Carousel>
                     </div>
                 </div>
