@@ -39,14 +39,14 @@
     "Technologies": "Hecho con Next.js, Node.js y Amazon Web Services."
   },
 
-  "P2Finance": {
-    "Title": "P2Finance",
+  "RestaurantSystem": {
+    "Title": "Sistema de restaurante",
     "Description": "Gestor de comercio persona a persona",
     "Technologies": "Hecho con React, Node.js y PostgreSQL."
   },
 
-  "GraphBoard": {
-    "Title": "Tablero de Gráficas",
+  "UberClone": {
+    "Title": "Clon de uber",
     "Description": "Gestor de gráficos.",
     "Technologies": "Hecho con Next.js, Node.js y Amazon Web Services."
   }
@@ -66,7 +66,52 @@
     "LblCopyRight": "Copyright 2024. Todos los derechos reservados"
   
 
+},
+"GalleryItems": {
+  "TaskManager": {
+    "TaskManagerTutorial": {
+      "titleItem": "Tutorial del Administrador de Tareas",
+      "descriptionItem": "Descripción del tutorial"
+    },
+    "Imagen1": {
+      "titleItem": "Imagen1",
+      "descriptionItem": "Descripción de la imagen1 del Administrador de Tareas"
+    },
+    "Imagen2": {
+      "titleItem": "Imagen2",
+      "descriptionItem": "Descripción de la imagen2 del Administrador de Tareas"
+    }
+  },
+  "RestaurantSystem": {
+    "RestaurantTutorial": {
+      "titleItem": "Tutorial del Sistema de Restaurante",
+      "descriptionItem": "Descripción del tutorial"
+    },
+    "Imagen1": {
+      "titleItem": "Imagen1",
+      "descriptionItem": "Descripción de la imagen1 del Sistema de Restaurante"
+    },
+    "Imagen2": {
+      "titleItem": "Imagen2",
+      "descriptionItem": "Descripción de la imagen2 del Sistema de Restaurante"
+    }
+  },
+  "UberClone": {
+    "UberCloneTutorial": {
+      "titleItem": "Tutorial del Clon de Uber",
+      "descriptionItem": "Descripción del tutorial"
+    },
+    "Imagen1": {
+      "titleItem": "Imagen1",
+      "descriptionItem": "Descripción de la imagen1 del Clon de Uber"
+    },
+    "Imagen2": {
+      "titleItem": "Imagen2",
+      "descriptionItem": "Descripción de la imagen2 del Clon de Uber"
+    }
+  }
 }
+
 
     
   

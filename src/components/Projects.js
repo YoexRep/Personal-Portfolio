@@ -29,24 +29,27 @@ export const Projects = () => {
         {
           type: "video",
           src: "https://youtu.be/KAV8vo7hGAo",
-          description: "Video 1: Introducción al proyecto Task Manager.",
+          titleItem:  textElement("GalleryItems.TaskManager.TaskManagerTutorial.titleItem"),
+          descriptionItem: textElement("GalleryItems.TaskManager.TaskManagerTutorial.descriptionItem"),
         },
         {
           type: "image",
           src: "https://via.placeholder.com/700",
-          description: "Imagen 1: Interfaz del Task Manager.",
+          titleItem:  textElement("GalleryItems.TaskManager.Imagen1.titleItem"),
+          descriptionItem: textElement("GalleryItems.TaskManager.Imagen1.descriptionItem"),
         },
         {
           type: "image",
           src: "https://via.placeholder.com/800",
-          description: "Imagen 2: Detalles del diseño del Task Manager.",
+          titleItem:  textElement("GalleryItems.TaskManager.Imagen2.titleItem"),
+          descriptionItem: textElement("GalleryItems.TaskManager.Imagen2.descriptionItem"),
         },
       ],
     },
     {
-      title: textElement("Projects.P2Finance.Title"),
-      description: textElement("Projects.P2Finance.Description"),
-      tecnologies: textElement("Projects.P2Finance.Technologies"),
+      title: textElement("Projects.RestaurantSystem.Title"),
+      description: textElement("Projects.RestaurantSystem.Description"),
+      tecnologies: textElement("Projects.RestaurantSystem.Technologies"),
       buttonText: textElement("Projects.BtnOpenProject"),
       imgUrl: projP2Finace,
       projectUrl: "#",
@@ -57,26 +60,30 @@ export const Projects = () => {
       buttonTextNoCode: textElement("Projects.BtnNoCodeProject"),
       galleryItems: [
         {
+          type: "video",
+          src: "https://youtu.be/xyz12345", // Cambia por un video real
+          titleItem:  textElement("GalleryItems.RestaurantSystem.RestaurantTutorial.titleItem"),
+          descriptionItem: textElement("GalleryItems.RestaurantSystem.RestaurantTutorial.descriptionItem"),
+        },
+        {
           type: "image",
           src: "https://via.placeholder.com/500",
-          description: "Imagen 1: Pantalla inicial de P2Finance.",
+          titleItem:  textElement("GalleryItems.RestaurantSystem.Imagen1.titleItem"),
+          descriptionItem: textElement("GalleryItems.RestaurantSystem.Imagen1.descriptionItem"),
         },
         {
           type: "image",
           src: "https://via.placeholder.com/600",
-          description: "Imagen 2: Resumen de transacciones.",
+          titleItem:  textElement("GalleryItems.RestaurantSystem.Imagen2.titleItem"),
+          descriptionItem: textElement("GalleryItems.RestaurantSystem.Imagen2.descriptionItem"),
         },
-        {
-          type: "video",
-          src: "https://youtu.be/xyz12345", // Cambia por un video real
-          description: "Video 1: Demostración de P2Finance en acción.",
-        },
+       
       ],
     },
     {
-      title: textElement("Projects.GraphBoard.Title"),
-      description: textElement("Projects.GraphBoard.Description"),
-      tecnologies: textElement("Projects.GraphBoard.Technologies"),
+      title: textElement("Projects.UberClone.Title"),
+      description: textElement("Projects.UberClone.Description"),
+      tecnologies: textElement("Projects.UberClone.Technologies"),
       buttonText: textElement("Projects.BtnOpenProject"),
       imgUrl: projGraph,
       projectUrl: "#",
@@ -89,17 +96,20 @@ export const Projects = () => {
         {
           type: "video",
           src: "https://youtu.be/KAV8vo7hGAo",
-          description: "Video 1: Introducción al GraphBoard.",
+          titleItem:  textElement("GalleryItems.UberClone.UberCloneTutorial.titleItem"),
+          descriptionItem: textElement("GalleryItems.UberClone.UberCloneTutorial.descriptionItem"),
         },
         {
           type: "image",
           src: "https://via.placeholder.com/500",
-          description: "Imagen 1: Tablero de gráficos en uso.",
+          titleItem:  textElement("GalleryItems.UberClone.Imagen1.titleItem"),
+          descriptionItem: textElement("GalleryItems.UberClone.Imagen1.descriptionItem"),
         },
         {
           type: "image",
           src: "https://via.placeholder.com/600",
-          description: "Imagen 2: Vista de los datos en GraphBoard.",
+          titleItem:  textElement("GalleryItems.UberClone.Imagen2.titleItem"),
+          descriptionItem: textElement("GalleryItems.UberClone.Imagen2.descriptionItem"),
         },
       ],
     },

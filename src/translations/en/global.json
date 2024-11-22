@@ -42,19 +42,20 @@
                 "Title": "Task Manager",
                 "Description": "With Drag and drop function.",
                  "Technologies": "Made with nextjs, nodejs, and amazon web services."
-           
+
+                 
    
             },
 
-            "P2Finance":{
+            "RestaurantSystem":{
 
-                "Title": "P2Finance",
+                "Title": "RestaurantSystem",
                 "Description": "Person-to-person commerce manager",
                  "Technologies": "Made with React, nodejs, and postgresSQL."
    
             },
 
-            "GraphBoard":{
+            "UberClone":{
 
                 "Title": "Graph board",
                 "Description": "Graphics manager.",
@@ -81,7 +82,106 @@
         "LblCopyRight": "Copyright 2024. All Rights Reserved"
       
     
-    }
+    },
+
+    "GalleryItems":{
+
+        "TaskManager":{
+
+
+            "TaskManagerTutorial":{
+
+                "titleItem": "Task Manager tutorial",
+                "descriptionItem": "Tutorial description"    
+     
+            },
+     
+            "Imagen1":{
+     
+                "titleItem": "Imagen1",
+                "descriptionItem": "Descripcion imagen1 Task Manager "
+               
+     
+            },
+     
+            "Imagen2":{
+     
+                "titleItem": "Imagen2",
+                "descriptionItem": "Descripcion imagen2 Task Manager "
+          
+           
+     
+            }
+
+
+        },
+
+        "RestaurantSystem":{
+
+
+            "RestaurantTutorial":{
+
+                "titleItem": "Restaurant tutorial",
+                "descriptionItem": "Tutorial description"    
+     
+            },
+     
+            "Imagen1":{
+     
+                "titleItem": "Imagen1",
+                "descriptionItem": "Descripcion imagen1 Restaurant"
+               
+     
+            },
+     
+            "Imagen2":{
+     
+                "titleItem": "Imagen2",
+                "descriptionItem": "Descripcion imagen2 Restaurant"
+          
+           
+     
+            }
+
+
+        },
+
+        
+        "UberClone":{
+
+
+            "UberCloneTutorial":{
+
+                "titleItem": "UberClone tutorial",
+                "descriptionItem": "Tutorial description"    
+     
+            },
+     
+            "Imagen1":{
+     
+                "titleItem": "Imagen1",
+                "descriptionItem": "Descripcion imagen1 UberClone"
+               
+     
+            },
+     
+            "Imagen2":{
+     
+                "titleItem": "Imagen2",
+                "descriptionItem": "Descripcion imagen2 UberClone"
+          
+           
+     
+            }
+
+
+        }
+
+      
+
+  
+
+     }
         
 
 }

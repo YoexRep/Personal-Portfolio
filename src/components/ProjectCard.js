@@ -123,9 +123,9 @@ export const ProjectCard = ({
 
   {/* Sección derecha: descripción y botones */}
   <div className="ps-4 d-flex flex-column" style={{ width: "50%" }}>
-  <h5 className="mb-3">{selectedItem.title || title}</h5>
-  <p>{selectedItem.description || description}</p>
-  <p>{tecnologies}</p>
+  <h5 className="mb-4">{selectedItem.titleItem}</h5>
+  <p>{selectedItem.descriptionItem }</p>
+
   <div className="mt-auto">
     
     {/*Para el boton probar */}
