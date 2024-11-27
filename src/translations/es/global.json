@@ -41,14 +41,14 @@
 
   "RestaurantSystem": {
     "Title": "Sistema de restaurante",
-    "Description": "Gestor de comercio persona a persona",
-    "Technologies": "Hecho con React, Node.js y PostgreSQL."
+    "Description": "Control de inventario y comandas",
+    "Technologies": "Hecho con C#, y PostgreSQL."
   },
 
   "UberClone": {
     "Title": "Clon de uber",
-    "Description": "Gestor de gráficos.",
-    "Technologies": "Hecho con Next.js, Node.js y Amazon Web Services."
+    "Description": "Con google maps y métodos de pagos",
+    "Technologies": "Hecho con Expo GO, Clerk, Stripe y NeonDB"
   }
 },
 "Contact": {
@@ -70,44 +70,44 @@
 "GalleryItems": {
   "TaskManager": {
     "TaskManagerTutorial": {
-      "titleItem": "Tutorial del Administrador de Tareas",
-      "descriptionItem": "Descripción del tutorial"
+      "titleItem": "Vista previa del Administrador de Tareas",
+      "descriptionItem": "En este video muestro el proceso para create un usuario, el cual necesita un código de confirmación, para ingresar en la aplicación, adicional a eso muestro las funciones de arrastrar y solar dentro de la app."
     },
     "Imagen1": {
-      "titleItem": "Imagen1",
-      "descriptionItem": "Descripción de la imagen1 del Administrador de Tareas"
+      "titleItem": "Servicios AWS del proyecto",
+      "descriptionItem": "La aplicación esta construida sobre AWS, se usa un servicio de EC2, para hostear el backend, COGNITO para administrar los usuarios, y sesiones, RDS para el alojamiento de Base de datos, y AMPLIFY para hostear el frontend"
     },
     "Imagen2": {
-      "titleItem": "Imagen2",
-      "descriptionItem": "Descripción de la imagen2 del Administrador de Tareas"
+      "titleItem": "Monitor del backend EC2",
+      "descriptionItem": "En esta imagen podemos ver los logs de nuestro backend en tiempo real."
     }
   },
   "RestaurantSystem": {
     "RestaurantTutorial": {
-      "titleItem": "Tutorial del Sistema de Restaurante",
-      "descriptionItem": "Descripción del tutorial"
+      "titleItem": "Vista previa del Sistema de Restaurante",
+      "descriptionItem": "En este video muestro como usando un lector QR con una balanza, el sistema era capaz de identificar el producto y en base al peso, contabilizarlo para el control de inventario."
     },
-    "Imagen1": {
-      "titleItem": "Imagen1",
-      "descriptionItem": "Descripción de la imagen1 del Sistema de Restaurante"
+    "Video2": {
+      "titleItem": "Vista previa del modulo de comandas",
+      "descriptionItem": "En este video muestro una prueba del modulo de comandas, cuando una mesa hacia una orden, le salia un ticket conocido como comanda, al chef en la cocina."
     },
     "Imagen2": {
-      "titleItem": "Imagen2",
-      "descriptionItem": "Descripción de la imagen2 del Sistema de Restaurante"
+      "titleItem": "Código del proyecto",
+      "descriptionItem": "Por razones de confidencialidad no se puede compartir este código, pero el sistema estaba construido usando C# y postgres SQL para la base de datos."
     }
   },
   "UberClone": {
     "UberCloneTutorial": {
-      "titleItem": "Tutorial del Clon de Uber",
-      "descriptionItem": "Descripción del tutorial"
+      "titleItem": "Vista previa de Clon Uber",
+      "descriptionItem": "En este video muestro el proceso de creación de la cuenta, ingresar y usar la app para pedir un viaje"
     },
     "Imagen1": {
-      "titleItem": "Imagen1",
-      "descriptionItem": "Descripción de la imagen1 del Clon de Uber"
+      "titleItem": "Clerk",
+      "descriptionItem": "Esta app utiliza el servicio de clerk, para el manejo de usuarios y sesiones."
     },
     "Imagen2": {
-      "titleItem": "Imagen2",
-      "descriptionItem": "Descripción de la imagen2 del Clon de Uber"
+      "titleItem": "Base de datos NeonDB",
+      "descriptionItem": "Para el alojamiento de los datos, se utiliza un servicio de base de datos en la nube, llamado NeonDB"
     }
   }
 }

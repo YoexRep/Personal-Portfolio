@@ -1,11 +1,31 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projTask from "../assets/img/ProyectoTask.png";
-import projP2Finace from "../assets/img/p2Finance.png";
-import projGraph from "../assets/img/Graficas.jpg";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import {useTranslation} from "react-i18next";
+
+
+
+
+
+
+//ProjectTaskManager images
+
+import projTask from "../assets/img/ProjectsGallery/ProyectoTask.png";
+import awsProduct from "../assets/img/ProjectsGallery/AWSProducts.jpg";
+import Ec2Monitor from "../assets/img/ProjectsGallery/EC2-Monitor.jpg";
+
+//Restaurant images
+import projRestauramt from "../assets/img/ProjectsGallery/Restaurant.png";
+import RestaurantCode from "../assets/img/ProjectsGallery/RestaurantCode.jpg";
+
+
+//Uber Clone images
+import projRyde from "../assets/img/ProjectsGallery/Ryde.png";
+import ClerkDashboard from "../assets/img/ProjectsGallery/Clerk.jpg";
+import NeonDbImg from "../assets/img/ProjectsGallery/NeonBd.jpg";
+
 
 
 export const Projects = () => {
@@ -28,21 +48,24 @@ export const Projects = () => {
       galleryItems: [
         {
           type: "video",
-          src: "https://youtu.be/KAV8vo7hGAo",
+          src: "https://youtu.be/taUlVqq2aGU",
           titleItem:  textElement("GalleryItems.TaskManager.TaskManagerTutorial.titleItem"),
           descriptionItem: textElement("GalleryItems.TaskManager.TaskManagerTutorial.descriptionItem"),
+          colorFullscreenButton: "#FFFFFF",
         },
         {
           type: "image",
-          src: "https://via.placeholder.com/700",
+          src: awsProduct,
           titleItem:  textElement("GalleryItems.TaskManager.Imagen1.titleItem"),
           descriptionItem: textElement("GalleryItems.TaskManager.Imagen1.descriptionItem"),
+          colorFullscreenButton: "#808080",
         },
         {
           type: "image",
-          src: "https://via.placeholder.com/800",
+          src: Ec2Monitor,
           titleItem:  textElement("GalleryItems.TaskManager.Imagen2.titleItem"),
           descriptionItem: textElement("GalleryItems.TaskManager.Imagen2.descriptionItem"),
+          colorFullscreenButton: "#FFFFFF",
         },
       ],
     },
@@ -51,7 +74,7 @@ export const Projects = () => {
       description: textElement("Projects.RestaurantSystem.Description"),
       tecnologies: textElement("Projects.RestaurantSystem.Technologies"),
       buttonText: textElement("Projects.BtnOpenProject"),
-      imgUrl: projP2Finace,
+      imgUrl: projRestauramt,
       projectUrl: "#",
       projectUrlGit: "#",
       buttonTextDemo: textElement("Projects.BtnDemoProject"),
@@ -61,21 +84,24 @@ export const Projects = () => {
       galleryItems: [
         {
           type: "video",
-          src: "https://youtu.be/xyz12345", // Cambia por un video real
+          src: "https://youtu.be/E4zPQtV_c_E", // Cambia por un video real
           titleItem:  textElement("GalleryItems.RestaurantSystem.RestaurantTutorial.titleItem"),
           descriptionItem: textElement("GalleryItems.RestaurantSystem.RestaurantTutorial.descriptionItem"),
+          colorFullscreenButton: "#FFFFFF",
+        },
+        {
+          type: "video",
+          src: "https://youtu.be/gRsN1bKEV-s", // Cambia por un video real
+          titleItem:  textElement("GalleryItems.RestaurantSystem.Video2.titleItem"),
+          descriptionItem: textElement("GalleryItems.RestaurantSystem.Video2.descriptionItem"),
+          colorFullscreenButton: "#FFFFFF",
         },
         {
           type: "image",
-          src: "https://via.placeholder.com/500",
-          titleItem:  textElement("GalleryItems.RestaurantSystem.Imagen1.titleItem"),
-          descriptionItem: textElement("GalleryItems.RestaurantSystem.Imagen1.descriptionItem"),
-        },
-        {
-          type: "image",
-          src: "https://via.placeholder.com/600",
+          src: RestaurantCode,
           titleItem:  textElement("GalleryItems.RestaurantSystem.Imagen2.titleItem"),
           descriptionItem: textElement("GalleryItems.RestaurantSystem.Imagen2.descriptionItem"),
+          colorFullscreenButton: "#808080",
         },
        
       ],
@@ -85,9 +111,9 @@ export const Projects = () => {
       description: textElement("Projects.UberClone.Description"),
       tecnologies: textElement("Projects.UberClone.Technologies"),
       buttonText: textElement("Projects.BtnOpenProject"),
-      imgUrl: projGraph,
+      imgUrl: projRyde,
       projectUrl: "#",
-      projectUrlGit: "#",
+      projectUrlGit: "https://github.com/YoexRep/UberClone",
       buttonTextDemo: textElement("Projects.BtnDemoProject"),
       buttonTextCode: textElement("Projects.BtnCodeProject"),
       buttonTextNoDemo: textElement("Projects.BtnNoDemoProject"),
@@ -95,21 +121,24 @@ export const Projects = () => {
       galleryItems: [
         {
           type: "video",
-          src: "https://youtu.be/KAV8vo7hGAo",
+          src: "https://youtu.be/0vrflbusMJY",
           titleItem:  textElement("GalleryItems.UberClone.UberCloneTutorial.titleItem"),
           descriptionItem: textElement("GalleryItems.UberClone.UberCloneTutorial.descriptionItem"),
+          colorFullscreenButton: "#FFFFFF",
         },
         {
           type: "image",
-          src: "https://via.placeholder.com/500",
+          src: ClerkDashboard,
           titleItem:  textElement("GalleryItems.UberClone.Imagen1.titleItem"),
           descriptionItem: textElement("GalleryItems.UberClone.Imagen1.descriptionItem"),
+          colorFullscreenButton: "#808080",
         },
         {
           type: "image",
-          src: "https://via.placeholder.com/600",
+          src: NeonDbImg,
           titleItem:  textElement("GalleryItems.UberClone.Imagen2.titleItem"),
           descriptionItem: textElement("GalleryItems.UberClone.Imagen2.descriptionItem"),
+          colorFullscreenButton: "#FFFFFF",
         },
       ],
     },
@@ -146,12 +175,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+              
                   </Tab.Content>
                 </Tab.Container>
               </div>}

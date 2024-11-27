@@ -41,28 +41,23 @@
 
                 "Title": "Task Manager",
                 "Description": "With Drag and drop function.",
-                 "Technologies": "Made with nextjs, nodejs, and amazon web services."
+                 "Technologies": "Built with nextjs, nodejs, and amazon web services."
 
                  
    
             },
 
-            "RestaurantSystem":{
+       "RestaurantSystem": {
+  "Title": "Restaurant System",
+  "Description": "Inventory control and order management.",
+  "Technologies": "Built with C# and PostgreSQL."
+},
 
-                "Title": "RestaurantSystem",
-                "Description": "Person-to-person commerce manager",
-                 "Technologies": "Made with React, nodejs, and postgresSQL."
-   
-            },
-
-            "UberClone":{
-
-                "Title": "Graph board",
-                "Description": "Graphics manager.",
-                 "Technologies": "Made with nextjs, nodejs, and amazon web services."
-           
-   
-            }
+"UberClone": {
+  "Title": "Uber Clone",
+  "Description": "With google maps and payment methods.",
+  "Technologies": "Built with Expo GO, Clerk, and NeonDB."
+}
 
        
    
@@ -84,104 +79,51 @@
     
     },
 
-    "GalleryItems":{
+   "GalleryItems": {
+  "TaskManager": {
+    "TaskManagerTutorial": {
+      "titleItem": "Task Manager Preview",
+      "descriptionItem": "In this video, I show the process to create a user, which requires a confirmation code to log in to the application. Additionally, I demonstrate the drag-and-drop functions within the app."
+    },
+    "Imagen1": {
+      "titleItem": "AWS Services Used in the Project",
+      "descriptionItem": "The application is built on AWS, using an EC2 service to host the backend, COGNITO for user and session management, RDS for database hosting, and AMPLIFY for frontend hosting."
+    },
+    "Imagen2": {
+      "titleItem": "EC2 Backend Monitor",
+      "descriptionItem": "In this image, we can see the real-time logs of our backend."
+    }
+  },
+  "RestaurantSystem": {
+    "RestaurantTutorial": {
+      "titleItem": "Restaurant System Preview",
+      "descriptionItem": "In this video, I show how using a QR reader with a scale, the system could identify the product and, based on the weight, calculate it for inventory control."
+    },
+    "Video2": {
+      "titleItem": "Order Module Preview",
+      "descriptionItem": "In this video, I show a test of the order module. When a table placed an order, a ticket, known as a 'comanda,' was sent to the chef in the kitchen."
+    },
+    "Imagen2": {
+      "titleItem": "Project Code",
+      "descriptionItem": "For confidentiality reasons, this code cannot be shared, but the system was built using C# and PostgreSQL for the database."
+    }
+  },
+  "UberClone": {
+    "UberCloneTutorial": {
+      "titleItem": "Uber Clone Preview",
+      "descriptionItem": "In this video, I show the process of creating an account, logging in, and using the app to request a ride."
+    },
+    "Imagen1": {
+      "titleItem": "Clerk",
+      "descriptionItem": "This app uses the Clerk service for user and session management."
+    },
+    "Imagen2": {
+      "titleItem": "NeonDB Database",
+      "descriptionItem": "For data hosting, a cloud database service called NeonDB is used."
+    }
+  }
+}
 
-        "TaskManager":{
-
-
-            "TaskManagerTutorial":{
-
-                "titleItem": "Task Manager tutorial",
-                "descriptionItem": "Tutorial description"    
-     
-            },
-     
-            "Imagen1":{
-     
-                "titleItem": "Imagen1",
-                "descriptionItem": "Descripcion imagen1 Task Manager "
-               
-     
-            },
-     
-            "Imagen2":{
-     
-                "titleItem": "Imagen2",
-                "descriptionItem": "Descripcion imagen2 Task Manager "
-          
-           
-     
-            }
-
-
-        },
-
-        "RestaurantSystem":{
-
-
-            "RestaurantTutorial":{
-
-                "titleItem": "Restaurant tutorial",
-                "descriptionItem": "Tutorial description"    
-     
-            },
-     
-            "Imagen1":{
-     
-                "titleItem": "Imagen1",
-                "descriptionItem": "Descripcion imagen1 Restaurant"
-               
-     
-            },
-     
-            "Imagen2":{
-     
-                "titleItem": "Imagen2",
-                "descriptionItem": "Descripcion imagen2 Restaurant"
-          
-           
-     
-            }
-
-
-        },
-
-        
-        "UberClone":{
-
-
-            "UberCloneTutorial":{
-
-                "titleItem": "UberClone tutorial",
-                "descriptionItem": "Tutorial description"    
-     
-            },
-     
-            "Imagen1":{
-     
-                "titleItem": "Imagen1",
-                "descriptionItem": "Descripcion imagen1 UberClone"
-               
-     
-            },
-     
-            "Imagen2":{
-     
-                "titleItem": "Imagen2",
-                "descriptionItem": "Descripcion imagen2 UberClone"
-          
-           
-     
-            }
-
-
-        }
-
-      
-
-  
-
-     }
         
 
 }
