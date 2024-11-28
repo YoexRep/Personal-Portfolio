@@ -12,17 +12,17 @@ import {useTranslation} from "react-i18next";
 
 //ProjectTaskManager images
 
-import projTask from "../assets/img/ProjectsGallery/ProyectoTask.png";
+import projTask from "../assets/img/ProjectsGallery/ProyectoTask.webp";
 import awsProduct from "../assets/img/ProjectsGallery/AWSProducts.jpg";
 import Ec2Monitor from "../assets/img/ProjectsGallery/EC2-Monitor.jpg";
 
 //Restaurant images
-import projRestauramt from "../assets/img/ProjectsGallery/Restaurant.png";
+import projRestauramt from "../assets/img/ProjectsGallery/Restaurant.webp";
 import RestaurantCode from "../assets/img/ProjectsGallery/RestaurantCode.jpg";
 
 
 //Uber Clone images
-import projRyde from "../assets/img/ProjectsGallery/Ryde.png";
+import projRyde from "../assets/img/ProjectsGallery/Ryde.webp";
 import ClerkDashboard from "../assets/img/ProjectsGallery/Clerk.jpg";
 import NeonDbImg from "../assets/img/ProjectsGallery/NeonBd.jpg";
 import UberCloneQR from "../assets/img/ProjectsGallery/UberCloneQR.png";
