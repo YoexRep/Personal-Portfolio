@@ -14,16 +14,23 @@ export const ProjectCard = ({
   imgUrl,
   projectUrl,
   projectUrlGit,
+  mobilAppButton = false,
+  imgQR,
+  titleQR,
   galleryItems,
 }) => {
   const [showModal, setShowModal] = useState(false);
   const [showFullScreenModal, setShowFullScreenModal] = useState(false); // Estado para modal de ampliación
+  const [showQRModal, setShowQRModal] = useState(false); // Estado para QR modal y descargar APP
   const [selectedItem, setSelectedItem] = useState(galleryItems[0]);
 
   const handleOpenModal = () => setShowModal(true);
   const handleCloseModal = () => setShowModal(false);
   const handleOpenFullScreenModal = () => setShowFullScreenModal(true);
   const handleCloseFullScreenModal = () => setShowFullScreenModal(false);
+
+  const handleOpenQRModal = () => setShowQRModal(true);
+  const handleCloseQRModal = () => setShowQRModal(false);
 
   return (
     <Col size={12} sm={6} md={4}>
@@ -142,16 +149,34 @@ export const ProjectCard = ({
                     <Button variant="primary" disabled>
                       {buttonTextNoDemo}
                     </Button>
-                  ) : (
-                    <Button
-                      variant="primary"
-                      href={projectUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {buttonTextDemo}
-                    </Button>
-                  )}
+                  ) : 
+                      mobilAppButton===false ?  (
+                        <Button
+                          variant="primary"
+                          href={projectUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {buttonTextDemo}
+                        </Button>
+                      ) : 
+                      (
+                        <Button
+                          variant="primary"             
+                        
+                          onClick={handleOpenQRModal}
+                        >
+                          Apk
+                        </Button>
+
+                        
+                      ) 
+                    
+                         
+                 
+                  
+                  
+                  }
                   {projectUrlGit === "#" ? (
                     <Button variant="secondary" disabled>
                       {buttonTextNoCode}
@@ -173,6 +198,8 @@ export const ProjectCard = ({
         </Modal.Body>
       </Modal>
 
+      
+
       {/* Modal para ampliación */}
       <Modal
         show={showFullScreenModal}
@@ -192,8 +219,50 @@ export const ProjectCard = ({
             src={selectedItem.src}
             alt="Full View"
             style={{
-              maxWidth: "90%",
-              maxHeight: "90%",
+              maxWidth: "100%",
+              maxHeight: "100%",
+              objectFit: "contain",
+            }}
+          />
+        </Modal.Body>
+      </Modal>
+
+
+       {/* Modal para QR */}
+       <Modal
+        show={showQRModal}
+        onHide={handleCloseQRModal}
+            size="sm"
+        centered
+      >
+
+
+      <Modal.Header
+          
+          style={{
+            backgroundColor: "#006400",
+            color: "#fff",
+          }}
+        >
+          <Modal.Title>{titleQR}</Modal.Title>
+        </Modal.Header>
+
+        <Modal.Body
+          style={{
+            backgroundColor: "#008000",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src={imgQR}
+            alt="Full View"
+            style={{
+              maxWidth: "100%",
+              maxHeight: "100%",
+            
+           
               objectFit: "contain",
             }}
           />

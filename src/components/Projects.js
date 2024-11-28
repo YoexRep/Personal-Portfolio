@@ -25,6 +25,7 @@ import RestaurantCode from "../assets/img/ProjectsGallery/RestaurantCode.jpg";
 import projRyde from "../assets/img/ProjectsGallery/Ryde.png";
 import ClerkDashboard from "../assets/img/ProjectsGallery/Clerk.jpg";
 import NeonDbImg from "../assets/img/ProjectsGallery/NeonBd.jpg";
+import UberCloneQR from "../assets/img/ProjectsGallery/UberCloneQR.png";
 
 
 
@@ -112,12 +113,15 @@ export const Projects = () => {
       tecnologies: textElement("Projects.UberClone.Technologies"),
       buttonText: textElement("Projects.BtnOpenProject"),
       imgUrl: projRyde,
-      projectUrl: "#",
+      projectUrl: "https://github.com/YoexRep/UberClone",
       projectUrlGit: "https://github.com/YoexRep/UberClone",
       buttonTextDemo: textElement("Projects.BtnDemoProject"),
       buttonTextCode: textElement("Projects.BtnCodeProject"),
       buttonTextNoDemo: textElement("Projects.BtnNoDemoProject"),
       buttonTextNoCode: textElement("Projects.BtnNoCodeProject"),
+      mobilAppButton: true,
+      imgQR: UberCloneQR,
+      titleQR: textElement("Projects.titleQR"),
       galleryItems: [
         {
           type: "video",

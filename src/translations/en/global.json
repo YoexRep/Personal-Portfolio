@@ -36,6 +36,7 @@
              "BtnCodeProject": "Code", 
              "BtnNoDemoProject": "Not available", 
              "BtnNoCodeProject": "Private code", 
+             "titleQR": "Scan / Download", 
 
             "TaskManager":{
 
