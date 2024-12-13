@@ -82,7 +82,7 @@ export const Banner = () => {
 
                     {textElement("Banner.BtnCV") === "Download my CV" ? (
                       <a
-                        href="https://drive.google.com/uc?export=download&id=1OYHnuID3tmVALluxaAAD-Xg3GtfWrJ9Y"
+                        href="https://drive.google.com/uc?export=download&id=1JTcO1poETvSA-k7Xkn_fOCfdXTqXIpmf"
                         target="_blank"
                         className="a-link-down"
                         rel="noopener noreferrer"
@@ -94,7 +94,7 @@ export const Banner = () => {
                       </a>
                     ) : (
                       <a
-                        href="https://drive.google.com/uc?export=download&id=1cMp3z3yrIuJZFGXRpKBbxSXGQDYT9GZr"
+                        href="https://drive.google.com/uc?export=download&id=16eWFRfQ7C335sqJ7xWrCbg14Oey6XUwi"
                         target="_blank"
                         className="a-link-down"
                         rel="noopener noreferrer"
