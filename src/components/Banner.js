@@ -82,7 +82,7 @@ export const Banner = () => {
 
                     {textElement("Banner.BtnCV") === "Download my CV" ? (
                       <a
-                        href="https://drive.google.com/uc?export=download&id=1nSvmq7vbcrX8Taz5Vf-mcEOj-XbCpdB_"
+                        href="https://drive.google.com/uc?export=download&id=1B5C2kpiw17vqtkJc94-dFDR7vGQFFPJa"
                         target="_blank"
                         className="a-link-down"
                         rel="noopener noreferrer"
