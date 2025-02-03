@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.6d35b264.css",
-    "main.js": "/Personal-Portfolio/static/js/main.d26d18e0.js",
+    "main.js": "/Personal-Portfolio/static/js/main.a0f397a2.js",
     "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/background.png": "/Personal-Portfolio/static/media/background.39ba13e43620d567af96.png",
     "static/media/Perfil.png": "/Personal-Portfolio/static/media/Perfil.e21d189717e67b162099.png",
@@ -18,11 +18,14 @@
     "static/media/CentraNo2-Bold.ttf": "/Personal-Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/Personal-Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/Personal-Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/githubproyectodocker.webp": "/Personal-Portfolio/static/media/githubproyectodocker.55d3a62dd7a53c765059.webp",
+    "static/media/Ryde.webp": "/Personal-Portfolio/static/media/Ryde.42d529a5da27b2ba72d9.webp",
     "static/media/Restaurant.webp": "/Personal-Portfolio/static/media/Restaurant.ef9ac76453ad7aae9446.webp",
     "static/media/AWSProducts.jpg": "/Personal-Portfolio/static/media/AWSProducts.2d4ad9822a50ec241291.jpg",
     "static/media/nodejs.png": "/Personal-Portfolio/static/media/nodejs.7b0f4700ed6ce39afdff.png",
+    "static/media/pipelineCICD.webp": "/Personal-Portfolio/static/media/pipelineCICD.9a3f75f1fc21ed073b90.webp",
+    "static/media/cicd.webp": "/Personal-Portfolio/static/media/cicd.c87a4abd8a0a6d221fad.webp",
     "static/media/ProyectoTask.webp": "/Personal-Portfolio/static/media/ProyectoTask.54de2938ab892763e95a.webp",
-    "static/media/Ryde.webp": "/Personal-Portfolio/static/media/Ryde.632d61b9052a36e5468d.webp",
     "static/media/revicons.eot": "/Personal-Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Personal-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/React.png": "/Personal-Portfolio/static/media/React.98ff38735baa4c1b0381.png",
@@ -32,11 +35,11 @@
     "static/media/Youtube.svg": "/Personal-Portfolio/static/media/Youtube.8aafe5151e58a3e4135535f3da29deac.svg",
     "static/media/linkedin-logo.svg": "/Personal-Portfolio/static/media/linkedin-logo.2a9a4b8f32bee7a4d49a3564275d78ec.svg",
     "main.6d35b264.css.map": "/Personal-Portfolio/static/css/main.6d35b264.css.map",
-    "main.d26d18e0.js.map": "/Personal-Portfolio/static/js/main.d26d18e0.js.map",
+    "main.a0f397a2.js.map": "/Personal-Portfolio/static/js/main.a0f397a2.js.map",
     "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d35b264.css",
-    "static/js/main.d26d18e0.js"
+    "static/js/main.a0f397a2.js"
   ]
 }
