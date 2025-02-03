@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/Perfil.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import { ArrowRightCircle } from "react-bootstrap-icons";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 import { useTranslation } from "react-i18next";
 import { Skills } from "./Skills";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const [isRunning, setIsRunning] = useState(true); // Nuevo estado para controlar el efecto de escritura
@@ -36,7 +36,9 @@ export const Banner = () => {
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
-    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+    let updatedText = isDeleting
+      ? fullText.substring(0, text.length - 1)
+      : fullText.substring(0, text.length + 1);
 
     setText(updatedText);
 
@@ -48,7 +50,7 @@ export const Banner = () => {
       setIsDeleting(true);
       setIndex((prevIndex) => prevIndex - 1);
       setDelta(period);
-    } else if (isDeleting && updatedText === '') {
+    } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
@@ -64,12 +66,21 @@ export const Banner = () => {
         <Container>
           <Row className="aligh-items-center">
             <Col xs={12} md={6} xl={7}>
-              <TrackVisibility partialVisibility onChange={handleVisibilityChange}>
+              <TrackVisibility
+                partialVisibility
+                onChange={handleVisibilityChange}
+              >
                 {({ isVisible }) => (
-                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">{textElement("Banner.BtnWelcome")}</span>
+                  <div
+                    className={
+                      isVisible ? "animate__animated animate__fadeIn" : ""
+                    }
+                  >
+                    <span className="tagline">
+                      {textElement("Banner.BtnWelcome")}
+                    </span>
                     <h1>
-                      {textElement("Banner.LblGretting")}{' '}
+                      {textElement("Banner.LblGretting")}{" "}
                       <span
                         className="txt-rotate"
                         dataPeriod="1000"
@@ -89,7 +100,8 @@ export const Banner = () => {
                         download
                       >
                         <button>
-                          {textElement("Banner.BtnCV")} <ArrowRightCircle size={25} />
+                          {textElement("Banner.BtnCV")}{" "}
+                          <ArrowRightCircle size={25} />
                         </button>
                       </a>
                     ) : (
@@ -101,7 +113,8 @@ export const Banner = () => {
                         download
                       >
                         <button>
-                          {textElement("Banner.BtnCV")} <ArrowRightCircle size={25} />
+                          {textElement("Banner.BtnCV")}{" "}
+                          <ArrowRightCircle size={25} />
                         </button>
                       </a>
                     )}
@@ -112,7 +125,11 @@ export const Banner = () => {
             <Col xs={12} md={6} xl={5}>
               <TrackVisibility>
                 {({ isVisible }) => (
-                  <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                  <div
+                    className={
+                      isVisible ? "animate__animated animate__zoomIn" : ""
+                    }
+                  >
                     <img src={headerImg} alt="Header Img" />
                   </div>
                 )}

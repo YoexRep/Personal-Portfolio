@@ -33,7 +33,7 @@ export const ProjectCard = ({
   const handleCloseQRModal = () => setShowQRModal(false);
 
   return (
-    <Col size={12} sm={6} md={4}>
+    <Col size={12} sm={6} md={6}>
       <div className="proj-imgbx">
         <img src={imgUrl} />
         <div className="proj-txtx">
@@ -53,27 +53,28 @@ export const ProjectCard = ({
       <Modal show={showModal} onHide={handleCloseModal} size="lg" centered>
         <Modal.Header
           closeButton
-          style={{
-            backgroundColor: "rgba(0, 36, 60, 1)",
-            color: "#fff",
-          }}
+          style={{ backgroundColor: "rgba(0, 36, 60, 1)", color: "#fff" }}
         >
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body
           style={{
-            background: "linear-gradient(90.21deg, #00243c -5.91%, #003f63 111.58%)",
+            background:
+              "linear-gradient(90.21deg, #00243c -5.91%, #003f63 111.58%)",
             color: "#fff",
           }}
         >
           <div className="d-flex" style={{ height: "100%" }}>
             {/* Galería izquierda */}
             <div className="pe-4 position-relative" style={{ width: "50%" }}>
-              <div className="main-display mb-3 position-relative">
+              <div
+                className="main-display mb-3 position-relative"
+                style={{ height: "300px" }}
+              >
                 {selectedItem.type === "video" ? (
                   <iframe
                     width="100%"
-                    height="300px"
+                    height="100%"
                     src={convertToEmbedUrl(selectedItem.src)}
                     title="Video"
                     frameBorder="0"
@@ -81,14 +82,13 @@ export const ProjectCard = ({
                     allowFullScreen
                   ></iframe>
                 ) : (
-                  <div className="position-relative">
+                  <div className="position-relative" style={{ height: "100%" }}>
                     <img
                       src={selectedItem.src}
                       alt="Selected"
                       className="w-100"
-                      style={{ maxHeight: "300px", objectFit: "contain" }}
+                      style={{ height: "100%", objectFit: "cover" }}
                     />
-                    {/* Botón de ampliar solo para imágenes */}
                     <Fullscreen
                       size={25}
                       className="position-absolute"
@@ -121,7 +121,9 @@ export const ProjectCard = ({
                   >
                     {item.type === "video" ? (
                       <img
-                        src={`https://img.youtube.com/vi/${new URL(item.src).searchParams.get("v")}/0.jpg`}
+                        src={`https://img.youtube.com/vi/${new URL(
+                          item.src
+                        ).searchParams.get("v")}/0.jpg`}
                         alt="Video Thumbnail"
                         className="img-thumbnail"
                         style={{ width: "100px", height: "70px" }}
@@ -138,7 +140,6 @@ export const ProjectCard = ({
                 ))}
               </div>
             </div>
-
             {/* Sección derecha */}
             <div className="ps-4 d-flex flex-column" style={{ width: "50%" }}>
               <h5 className="mb-4">{selectedItem.titleItem}</h5>
@@ -149,34 +150,20 @@ export const ProjectCard = ({
                     <Button variant="primary" disabled>
                       {buttonTextNoDemo}
                     </Button>
-                  ) : 
-                      mobilAppButton===false ?  (
-                        <Button
-                          variant="primary"
-                          href={projectUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {buttonTextDemo}
-                        </Button>
-                      ) : 
-                      (
-                        <Button
-                          variant="primary"             
-                        
-                          onClick={handleOpenQRModal}
-                        >
-                          Apk
-                        </Button>
-
-                        
-                      ) 
-                    
-                         
-                 
-                  
-                  
-                  }
+                  ) : mobilAppButton === false ? (
+                    <Button
+                      variant="primary"
+                      href={projectUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {buttonTextDemo}
+                    </Button>
+                  ) : (
+                    <Button variant="primary" onClick={handleOpenQRModal}>
+                      Apk
+                    </Button>
+                  )}
                   {projectUrlGit === "#" ? (
                     <Button variant="secondary" disabled>
                       {buttonTextNoCode}
@@ -197,8 +184,6 @@ export const ProjectCard = ({
           </div>
         </Modal.Body>
       </Modal>
-
-      
 
       {/* Modal para ampliación */}
       <Modal
@@ -227,18 +212,9 @@ export const ProjectCard = ({
         </Modal.Body>
       </Modal>
 
-
-       {/* Modal para QR */}
-       <Modal
-        show={showQRModal}
-        onHide={handleCloseQRModal}
-            size="sm"
-        centered
-      >
-
-
-      <Modal.Header
-          
+      {/* Modal para QR */}
+      <Modal show={showQRModal} onHide={handleCloseQRModal} size="sm" centered>
+        <Modal.Header
           style={{
             backgroundColor: "#006400",
             color: "#fff",
@@ -261,8 +237,7 @@ export const ProjectCard = ({
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-            
-           
+
               objectFit: "contain",
             }}
           />

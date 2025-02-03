@@ -1,120 +1,124 @@
 {
-
-    "NavBar":{
-        "BtnHome": "Inicio",
-        "BtnSkills": "Habilidades",
-        "BtnProjects": "Proyectos",
-        "BtnContact": "Contacto"
-
-    },
-
-    "Banner":{
-        "BtnWelcome": "Bienvenido a mi portafolio",
-        "LblGretting": "Hola! soy Yoel,",
-        "LblDataRote": ["Desarrollador full stack."],
-        "LblDescription": "Ingeniero de sistemas con más de 3 años de experiencia en desarrollo web y aplicaciones de escritorio.",
-        "BtnCV": "Descargar mi CV"
-    },
-    "Skills":{
-          "LblSkills": "Habilidades",
-          "LblDescripcion": "A lo largo de mi carrera, he desarrollado competencias en diversos lenguajes y herramientas de programación, aplicándolas en proyectos universitarios, en mi trabajo como desarrollador junior y en mi canal de YouTube, donde enseñaba programación."
-     
-
-       
-         
-        } ,"ProjectsContainer": {
-  "Title": "Proyectos"
-},
-
-"Projects": {
-  "BtnOpenProject": "Abrir",
-  "BtnDemoProject": "Probar", 
-  "BtnCodeProject": "Código", 
-  "BtnNoDemoProject": "No disponible", 
-  "BtnNoCodeProject": "Código privado", 
-  "titleQR": "Escanea / Descargar", 
-
-  "TaskManager": {
-    "Title": "Gestor de Tareas",
-    "Description": "Con función de arrastrar y soltar.",
-    "Technologies": "Hecho con Next.js, Node.js y Amazon Web Services."
+  "NavBar": {
+    "BtnHome": "Inicio",
+    "BtnSkills": "Habilidades",
+    "BtnProjects": "Proyectos",
+    "BtnContact": "Contacto"
   },
 
-  "RestaurantSystem": {
-    "Title": "Sistema de restaurante",
-    "Description": "Control de inventario y comandas",
-    "Technologies": "Hecho con C#, y PostgreSQL."
+  "Banner": {
+    "BtnWelcome": "Bienvenido a mi portafolio",
+    "LblGretting": "Hola! soy Yoel,",
+    "LblDataRote": ["Desarrollador full stack."],
+    "LblDescription": "Ingeniero de sistemas con más de 3 años de experiencia en desarrollo web y aplicaciones de escritorio.",
+    "BtnCV": "Descargar mi CV"
+  },
+  "Skills": {
+    "LblSkills": "Habilidades",
+    "LblDescripcion": "A lo largo de mi carrera, he desarrollado competencias en diversos lenguajes y herramientas de programación, aplicándolas en proyectos universitarios, en mi trabajo como desarrollador junior y en mi canal de YouTube, donde enseñaba programación."
+  },
+  "ProjectsContainer": {
+    "Title": "Proyectos"
   },
 
-  "UberClone": {
-    "Title": "Clon de uber",
-    "Description": "Con google maps y métodos de pagos",
-    "Technologies": "Hecho con Expo GO, Clerk, Stripe y NeonDB"
-  }
-},
-"Contact": {
-  "Title": "Contáctame",
-  "InputFirstName": "Nombre",
-  "InputEmailAddress": "Correo electrónico",
-  "InputMessage": "Mensaje",
-   "BtnSend": "Enviar"
- 
-}
+  "Projects": {
+    "BtnOpenProject": "Abrir",
+    "BtnDemoProject": "Probar",
+    "BtnCodeProject": "Código",
+    "BtnNoDemoProject": "No disponible",
+    "BtnNoCodeProject": "Código privado",
+    "titleQR": "Escanea / Descargar",
 
-,
+    "CicdProject": {
+      "Title": "Entorno de producción",
+      "Description": "Entorno de produccion dockerizado y autmatizado con CI/CD.",
+      "Technologies": "Utilizando Docker, github actions, y Google Kubernetes Engine."
+    },
+    "TaskManager": {
+      "Title": "Gestor de Tareas",
+      "Description": "Con función de arrastrar y soltar.",
+      "Technologies": "Hecho con Next.js, Node.js y Amazon Web Services."
+    },
 
-"Footer":{
+    "RestaurantSystem": {
+      "Title": "Sistema de restaurante",
+      "Description": "Control de inventario y comandas",
+      "Technologies": "Hecho con C#, y PostgreSQL."
+    },
+
+    "UberClone": {
+      "Title": "Clon de uber",
+      "Description": "Con google maps y métodos de pagos",
+      "Technologies": "Hecho con Expo GO, Clerk, Stripe y NeonDB"
+    }
+  },
+  "Contact": {
+    "Title": "Contáctame",
+    "InputFirstName": "Nombre",
+    "InputEmailAddress": "Correo electrónico",
+    "InputMessage": "Mensaje",
+    "BtnSend": "Enviar"
+  },
+
+  "Footer": {
     "LblCopyRight": "Copyright 2024. Todos los derechos reservados"
-  
-
-},
-"GalleryItems": {
-  "TaskManager": {
-    "TaskManagerTutorial": {
-      "titleItem": "Vista previa del Administrador de Tareas",
-      "descriptionItem": "En este video muestro el proceso para create un usuario, el cual necesita un código de confirmación, para ingresar en la aplicación, adicional a eso muestro las funciones de arrastrar y solar dentro de la app."
-    },
-    "Imagen1": {
-      "titleItem": "Servicios AWS del proyecto",
-      "descriptionItem": "La aplicación esta construida sobre AWS, se usa un servicio de EC2, para hostear el backend, COGNITO para administrar los usuarios, y sesiones, RDS para el alojamiento de Base de datos, y AMPLIFY para hostear el frontend"
-    },
-    "Imagen2": {
-      "titleItem": "Monitor del backend EC2",
-      "descriptionItem": "En esta imagen podemos ver los logs de nuestro backend en tiempo real."
-    }
   },
-  "RestaurantSystem": {
-    "RestaurantTutorial": {
-      "titleItem": "Vista previa del Sistema de Restaurante",
-      "descriptionItem": "En este video muestro como usando un lector QR con una balanza, el sistema era capaz de identificar el producto y en base al peso, contabilizarlo para el control de inventario."
+  "GalleryItems": {
+    "CicdProject": {
+      "Cicdtutorial": {
+        "titleItem": "Vista previa del proyecto CI/CD",
+        "descriptionItem": "Este proyecto es una práctica de CI/CD en la que dockerizamos todo nuestro entorno de desarrollo, automatizamos las pruebas y gestionamos el despliegue en un clúster de Google Kubernetes."
+      },
+      "Imagen1": {
+        "titleItem": "Github Actions y google Kubernetes Engine",
+        "descriptionItem": "Para automatizar el despliegue de la aplicación, se utilizo Github Actions, y para el alojamiento de la aplicación se utilizo Google Kubernetes Engine."
+      },
+      "Imagen2": {
+        "titleItem": "Repositiorio del proyecto",
+        "descriptionItem": "Puedes encontrar el código de este proyecto en mi repositorio de github, y ver el pipeline de CI/CD en acción."
+      }
     },
-    "Video2": {
-      "titleItem": "Vista previa del modulo de comandas",
-      "descriptionItem": "En este video muestro una prueba del modulo de comandas, cuando una mesa hacia una orden, le salia un ticket conocido como comanda, al chef en la cocina."
+    "TaskManager": {
+      "TaskManagerTutorial": {
+        "titleItem": "Vista previa del Administrador de Tareas",
+        "descriptionItem": "En este video muestro el proceso para create un usuario, el cual necesita un código de confirmación, para ingresar en la aplicación, adicional a eso muestro las funciones de arrastrar y solar dentro de la app."
+      },
+      "Imagen1": {
+        "titleItem": "Servicios AWS del proyecto",
+        "descriptionItem": "La aplicación esta construida sobre AWS, se usa un servicio de EC2, para hostear el backend, COGNITO para administrar los usuarios, y sesiones, RDS para el alojamiento de Base de datos, y AMPLIFY para hostear el frontend"
+      },
+      "Imagen2": {
+        "titleItem": "Monitor del backend EC2",
+        "descriptionItem": "En esta imagen podemos ver los logs de nuestro backend en tiempo real."
+      }
     },
-    "Imagen2": {
-      "titleItem": "Código del proyecto",
-      "descriptionItem": "Por razones de confidencialidad no se puede compartir este código, pero el sistema estaba construido usando C# y postgres SQL para la base de datos."
-    }
-  },
-  "UberClone": {
-    "UberCloneTutorial": {
-      "titleItem": "Vista previa de Clon Uber",
-      "descriptionItem": "En este video muestro el proceso de creación de la cuenta, ingresar y usar la app para pedir un viaje"
+    "RestaurantSystem": {
+      "RestaurantTutorial": {
+        "titleItem": "Vista previa del Sistema de Restaurante",
+        "descriptionItem": "En este video muestro como usando un lector QR con una balanza, el sistema era capaz de identificar el producto y en base al peso, contabilizarlo para el control de inventario."
+      },
+      "Video2": {
+        "titleItem": "Vista previa del modulo de comandas",
+        "descriptionItem": "En este video muestro una prueba del modulo de comandas, cuando una mesa hacia una orden, le salia un ticket conocido como comanda, al chef en la cocina."
+      },
+      "Imagen2": {
+        "titleItem": "Código del proyecto",
+        "descriptionItem": "Por razones de confidencialidad no se puede compartir este código, pero el sistema estaba construido usando C# y postgres SQL para la base de datos."
+      }
     },
-    "Imagen1": {
-      "titleItem": "Clerk",
-      "descriptionItem": "Esta app utiliza el servicio de clerk, para el manejo de usuarios y sesiones."
-    },
-    "Imagen2": {
-      "titleItem": "Base de datos NeonDB",
-      "descriptionItem": "Para el alojamiento de los datos, se utiliza un servicio de base de datos en la nube, llamado NeonDB"
+    "UberClone": {
+      "UberCloneTutorial": {
+        "titleItem": "Vista previa de Clon Uber",
+        "descriptionItem": "En este video muestro el proceso de creación de la cuenta, ingresar y usar la app para pedir un viaje"
+      },
+      "Imagen1": {
+        "titleItem": "Clerk",
+        "descriptionItem": "Esta app utiliza el servicio de clerk, para el manejo de usuarios y sesiones."
+      },
+      "Imagen2": {
+        "titleItem": "Base de datos NeonDB",
+        "descriptionItem": "Para el alojamiento de los datos, se utiliza un servicio de base de datos en la nube, llamado NeonDB"
+      }
     }
   }
-}
-
-
-    
-  
-
 }
