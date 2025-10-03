@@ -423,6 +423,34 @@ nav.navbar.menu-open {
   font-size: 45px;
   font-weight: 700;
 }
+
+.certifications a h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.certifications a h5:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.certifications a {
+  text-decoration: none; /* quita subrayado */
+  color: inherit; /* hereda el color del h5 */
+}
+
+.certifications a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.certifications a:hover,
+.certifications a:focus {
+  text-decoration: none; /* sin subrayado en hover ni focus */
+  color: inherit;
+}
 .certifications p {
   color: #b8b8b8;
   font-size: 18px;
@@ -436,8 +464,11 @@ nav.navbar.menu-open {
   position: relative;
 }
 .certifications-slider .item img {
-  width: 50%;
+  width: 80%;
   margin: 0 auto 15px auto;
+  border: #ffffff solid 1px;
+  border-radius: 5px;
+  padding: 5px;
 }
 .background-image-left {
   top: 28%;
@@ -445,6 +476,37 @@ nav.navbar.menu-open {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+/* Normaliza las tarjetas */
+.certification-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 320px; /* ajusta según lo que quieras */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Normaliza las imágenes de certificados */
+.certification-card img {
+  height: 220px; /* igual altura para todos */
+  width: auto;
+  object-fit: contain; /* mantiene proporción */
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Ajusta el badge de Credly dentro del contenedor */
+.certification-card iframe,
+.certification-card div[data-share-badge-id] {
+  height: 220px !important; /* igual que las imágenes */
+  width: auto !important;
+  display: block;
+  margin: 0 auto 10px auto;
 }
 
 /************ Projects Css ************/

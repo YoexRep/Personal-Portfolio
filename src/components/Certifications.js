@@ -2,7 +2,10 @@ import { useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import reactImg from "../assets/img/React.png";
+import JavaScriptoCert from "../assets/img/JavaScriptoCert.webp";
+import ResposiveWebCert from "../assets/img/ResposiveWebCert.webp";
+import VerifiedInternational from "../assets/img/VerifiedInternational.webp";
+
 import { useTranslation } from "react-i18next";
 
 export const Certifications = () => {
@@ -41,24 +44,32 @@ export const Certifications = () => {
                 infinite={true}
                 className="owl-carousel owl-theme certifications-slider"
               >
-                {/* Credly Badge */}
-                <div
-                  className="item"
-                  data-iframe-width="150"
-                  data-iframe-height="270"
-                  data-share-badge-id="b1e33793-101c-4db4-be2e-03f3cee67d7b"
-                  data-share-badge-host="https://www.credly.com"
-                ></div>
+                {/*  Badge  WES */}
+
+                <div className="item certification-card">
+                  <a
+                    href="https://badges.wes.org/Evidence?i=a8105f9c-0ac0-4705-b016-58a5f4d318a1&type=us"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={VerifiedInternational}
+                      alt="JavaScript Algorithms and Data Structures"
+                      className="carousel-image"
+                    />
+                    <h5>Verified International Academic Qualifications</h5>
+                  </a>
+                </div>
 
                 {/* FreeCodeCamp - JavaScript */}
-                <div className="item">
+                <div className="item certification-card">
                   <a
                     href="https://www.freecodecamp.org/certification/yoex/javascript-algorithms-and-data-structures"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img
-                      src={reactImg}
+                      src={JavaScriptoCert}
                       alt="JavaScript Algorithms and Data Structures"
                       className="carousel-image"
                     />
@@ -67,14 +78,14 @@ export const Certifications = () => {
                 </div>
 
                 {/* FreeCodeCamp - Responsive Web Design */}
-                <div className="item">
+                <div className="item certification-card">
                   <a
                     href="https://www.freecodecamp.org/certification/yoex/responsive-web-design"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img
-                      src={reactImg}
+                      src={ResposiveWebCert}
                       alt="Responsive Web Design"
                       className="carousel-image"
                     />
