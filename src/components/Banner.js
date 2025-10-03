@@ -6,6 +6,7 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { useTranslation } from "react-i18next";
 import { Skills } from "./Skills";
+import { Certifications } from "./Certifications";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -89,12 +90,12 @@ export const Banner = () => {
                         <span className="wrap">{text}</span>
                       </span>
                     </h1>
+
                     <p>{textElement("Banner.LblDescription")}</p>
 
                     {textElement("Banner.BtnCV") === "Download my CV" ? (
                       <a
                         href="https://drive.google.com/uc?export=download&id=1nbSDRyjuxtEu77zD6el3xiyT3DZYh4Ez"
-
                         target="_blank"
                         className="a-link-down"
                         rel="noopener noreferrer"
@@ -141,6 +142,7 @@ export const Banner = () => {
       </section>
 
       <Skills />
+      <Certifications />
     </div>
   );
 };

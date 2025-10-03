@@ -5,6 +5,12 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { useTranslation } from "react-i18next";
 
+//Terraform project images
+
+import projTerraform from "../assets/img/ProjectsGallery/TerraformAws.webp";
+import TerraformAwsDiagram from "../assets/img/ProjectsGallery/TerraformAwsDiagram.webp";
+import dashboardAwsTerraform from "../assets/img/ProjectsGallery/dashboardAwsTerraform.webp";
+
 //CICD project images
 
 import projCicd from "../assets/img/ProjectsGallery/cicd.webp";
@@ -31,6 +37,55 @@ export const Projects = () => {
   const [textElement, i18n] = useTranslation("global");
 
   const projects = [
+    {
+      title: textElement("Projects.TerraformProject.Title"),
+      description: textElement("Projects.TerraformProject.Description"),
+      tecnologies: textElement("Projects.TerraformProject.Technologies"),
+      buttonText: textElement("Projects.BtnOpenProject"),
+      imgUrl: projTerraform,
+      projectUrl: "#",
+      projectUrlGit: "https://github.com/YoexRep/PrimerEjercicioTerraform",
+      buttonTextDemo: textElement("Projects.BtnDemoProject"),
+      buttonTextCode: textElement("Projects.BtnCodeProject"),
+      buttonTextNoDemo: textElement("Projects.BtnNoDemoProject"),
+      buttonTextNoCode: textElement("Projects.BtnNoCodeProject"),
+      galleryItems: [
+        {
+          type: "video",
+          src: "https://youtu.be/6S7xXnV5PY0",
+          titleItem: textElement(
+            "GalleryItems.TerraformProject.Terraformtutorial.titleItem"
+          ),
+          descriptionItem: textElement(
+            "GalleryItems.TerraformProject.Terraformtutorial.descriptionItem"
+          ),
+          colorFullscreenButton: "#FFFFFF",
+        },
+        {
+          type: "image",
+          src: TerraformAwsDiagram,
+          titleItem: textElement(
+            "GalleryItems.TerraformProject.Imagen1.titleItem"
+          ),
+          descriptionItem: textElement(
+            "GalleryItems.TerraformProject.Imagen1.descriptionItem"
+          ),
+          colorFullscreenButton: "#808080",
+        },
+        {
+          type: "image",
+          src: dashboardAwsTerraform,
+          titleItem: textElement(
+            "GalleryItems.TerraformProject.Imagen2.titleItem"
+          ),
+          descriptionItem: textElement(
+            "GalleryItems.TerraformProject.Imagen2.descriptionItem"
+          ),
+          colorFullscreenButton: "#808080",
+        },
+      ],
+    },
+
     {
       title: textElement("Projects.CicdProject.Title"),
       description: textElement("Projects.CicdProject.Description"),

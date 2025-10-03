@@ -8,13 +8,17 @@
   "Banner": {
     "BtnWelcome": "Welcome to my portfolio",
     "LblGretting": "Hi! I'm Yoel,",
-    "LblDataRote": ["Full stack software developer."],
-    "LblDescription": "Systems engineer with more than 3 years of experience in web develops and desktop applications.",
+    "LblDataRote": ["Computer Engineer."],
+    "LblDescription": "Certified by the World Education Services (WES). I have extensive experience in application development and IT systems administration as an SRE.",
     "BtnCV": "Download my CV"
   },
   "Skills": {
     "LblSkills": "Skills",
-    "LblDescripcion": "Throughout my career, I have developed skills in various programming languages and tools, applying them in university projects, in my role as a junior developer, and on my YouTube channel, where I taught programming."
+    "LblDescripcion": "Throughout my career, I have developed skills in various programming languages, tools, and systems administration, applying them in my work as a developer and in personal projects as an SRE."
+  },
+  "Certifications": {
+    "LblCertifications": "Licenses and certifications",
+    "LblDescripcion": "As a software developer and systems administrator, I have obtained several licenses and certifications."
   },
   "ProjectsContainer": {
     "Title": "Projects"
@@ -28,6 +32,11 @@
     "BtnNoCodeProject": "Private code",
     "titleQR": "Scan / Download",
 
+    "TerraformProject": {
+      "Title": "IaC Practice with Terraform and AWS",
+      "Description": "Manage Infrastructure on AWS using Terraform.",
+      "Technologies": "Using AWS and Terraform."
+    },
     "CicdProject": {
       "Title": "Production Environment",
       "Description": "Dockerized production environment with automated CI/CD.",
@@ -64,6 +73,20 @@
   },
 
   "GalleryItems": {
+    "TerraformProject": {
+      "Terraformtutorial": {
+        "titleItem": "Terraform Project Preview",
+        "descriptionItem": "This project is a terraform practice where we manage the infrastructure on AWS, defining load balancers and EC2 instances."
+      },
+      "Imagen1": {
+        "titleItem": "Infrastructure flow diagram",
+        "descriptionItem": "Using app.diagrams, we model the entire diagram of our infrastructure."
+      },
+      "Imagen2": {
+        "titleItem": "Dashboard in AWS",
+        "descriptionItem": "Work dashboard of the instances created with Terraform."
+      }
+    },
     "CicdProject": {
       "Cicdtutorial": {
         "titleItem": "CI/CD Project Preview",

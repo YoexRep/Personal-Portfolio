@@ -9,13 +9,18 @@
   "Banner": {
     "BtnWelcome": "Bienvenido a mi portafolio",
     "LblGretting": "Hola! soy Yoel,",
-    "LblDataRote": ["Desarrollador full stack."],
-    "LblDescription": "Ingeniero de sistemas con más de 3 años de experiencia en desarrollo web y aplicaciones de escritorio.",
+    "LblDataRote": ["Ingeniero Informático."],
+    "LblDescription": "Certificado por la World Education Services (WES). Poseo una aplia experiencia en el desarrollo de aplicaciones y administración de sistemas informaticos como SRE.",
     "BtnCV": "Descargar mi CV"
   },
   "Skills": {
     "LblSkills": "Habilidades",
-    "LblDescripcion": "A lo largo de mi carrera, he desarrollado competencias en diversos lenguajes y herramientas de programación, aplicándolas en proyectos universitarios, en mi trabajo como desarrollador junior y en mi canal de YouTube, donde enseñaba programación."
+    "LblDescripcion": "A lo largo de mi carrera, he desarrollado competencias en diversos lenguajes, herramientas de programación y administración de sistemas, aplicándolas en mi trabajo como desarrollador, y en proyectos personales como SRE."
+  },
+
+  "Certifications": {
+    "LblCertifications": "Licencias y certificaciones",
+    "LblDescripcion": "Como desarrollador de software y administrador de sistemas, he obtenido varias licencias y certificaciones."
   },
   "ProjectsContainer": {
     "Title": "Proyectos"
@@ -29,6 +34,11 @@
     "BtnNoCodeProject": "Código privado",
     "titleQR": "Escanea / Descargar",
 
+    "TerraformProject": {
+      "Title": "Práctica de IaC con Terraform y AWS",
+      "Description": "Administrar la infraestructura en AWS usando Terraform.",
+      "Technologies": "Usando AWS y Terraform."
+    },
     "CicdProject": {
       "Title": "Entorno de producción",
       "Description": "Entorno de produccion dockerizado y autmatizado con CI/CD.",
@@ -64,6 +74,20 @@
     "LblCopyRight": "Copyright 2024. Todos los derechos reservados"
   },
   "GalleryItems": {
+    "TerraformProject": {
+      "Terraformtutorial": {
+        "titleItem": "Vista previa del proyecto Terraform",
+        "descriptionItem": "Este proyecto es una práctica de Terraform donde administramos la infraestructura en AWS, definiendo balanceadores de carga e instancias EC2."
+      },
+      "Imagen1": {
+        "titleItem": "Diagrama de flujo de la infraestructura",
+        "descriptionItem": "Usando app.diagrams, modelamos todo el diagrama de nuestra infraestructura."
+      },
+      "Imagen2": {
+        "titleItem": "Panel en AWS",
+        "descriptionItem": "Panel de trabajo de las instancias creadas con Terraform."
+      }
+    },
     "CicdProject": {
       "Cicdtutorial": {
         "titleItem": "Vista previa del proyecto CI/CD",
