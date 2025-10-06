@@ -35,7 +35,7 @@ export const Certifications = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="skill-bx wow zoomIn">
+            <div className="skill-certifications-bx wow zoomIn">
               {/* <h2>{textElement("Certifications.LblCertifications")}</h2> */}
               <p>{textElement("Certifications.LblDescripcion")}</p>
 

@@ -397,22 +397,20 @@ nav.navbar.menu-open {
   padding-bottom: 20px;
 }
 
-/************ Skills Css ************/
-.skill {
+.skill-certifications {
   padding: 40px 0 0px 0;
   position: relative;
 }
-.skill-bx {
+.skill-certifications-bx {
   background: #151515;
   border-radius: 64px;
   text-align: center;
   padding: 30px 20px;
   margin-top: -60px;
 }
-.skill h2 {
-  font-size: 45px;
-  font-weight: 700;
-}
+
+/************ Skills Css ************/
+
 .skill p {
   color: #b8b8b8;
   font-size: 18px;
@@ -434,11 +432,6 @@ nav.navbar.menu-open {
 .certifications {
   padding: 40px 0 0px 0;
   position: relative;
-}
-
-.certifications h2 {
-  font-size: 45px;
-  font-weight: 700;
 }
 
 .certifications a h5 {
@@ -481,7 +474,7 @@ nav.navbar.menu-open {
   position: relative;
 }
 .certifications-slider .item img {
-  width: 80%;
+  width: 70%;
   margin: 0 auto 15px auto;
   border: #ffffff solid 1px;
   border-radius: 5px;

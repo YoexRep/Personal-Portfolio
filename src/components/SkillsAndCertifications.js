@@ -14,7 +14,7 @@ export const SkillsAndCertifications = () => {
       <Container>
         <Row>
           <Col xs={12}>
-            <div className="skill-bx wow zoomIn">
+            <div className="skill-certifications-bx wow zoomIn">
               {/* 🔘 Switch Tabs */}
               <div className="switch-menu flex justify-center mb-4">
                 <button
