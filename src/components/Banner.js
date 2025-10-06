@@ -5,8 +5,8 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { useTranslation } from "react-i18next";
-import { Skills } from "./Skills";
-import { Certifications } from "./Certifications";
+
+import { SkillsAndCertifications } from "./SkillsAndCertifications";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -141,8 +141,7 @@ export const Banner = () => {
         </Container>
       </section>
 
-      <Skills />
-      <Certifications />
+      <SkillsAndCertifications />
     </div>
   );
 };

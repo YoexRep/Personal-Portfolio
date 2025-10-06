@@ -367,6 +367,33 @@ nav.navbar.menu-open {
   border-right: 0.08em solid #666;
 }
 
+/* skills-certifications.css */
+.switch-menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tab-btn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #00bcd4;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background: #00bcd4;
+  color: #121212;
+}
+
+.tab-btn.active {
+  background: #00bcd4;
+  color: #121212;
+}
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
@@ -398,13 +425,6 @@ nav.navbar.menu-open {
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
-}
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
 }
 
 /************ Licenses and certificacions Css ************/
@@ -470,6 +490,8 @@ nav.navbar.menu-open {
   border-radius: 5px;
   padding: 5px;
 }
+
+/************ Projects Css ************/
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -477,40 +499,6 @@ nav.navbar.menu-open {
   width: 40%;
   z-index: -4;
 }
-
-/* Normaliza las tarjetas */
-.certification-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  height: 320px; /* ajusta según lo que quieras */
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-/* Normaliza las imágenes de certificados */
-.certification-card img {
-  height: 220px; /* igual altura para todos */
-  width: auto;
-  object-fit: contain; /* mantiene proporción */
-  border: 1px solid #fff;
-  border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-/* Ajusta el badge de Credly dentro del contenedor */
-.certification-card iframe,
-.certification-card div[data-share-badge-id] {
-  height: 220px !important; /* igual que las imágenes */
-  width: auto !important;
-  display: block;
-  margin: 0 auto 10px auto;
-}
-
-/************ Projects Css ************/
-
 .a-projectcards-deploy {
   color: white;
 }

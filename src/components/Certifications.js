@@ -36,7 +36,7 @@ export const Certifications = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>{textElement("Certifications.LblCertifications")}</h2>
+              {/* <h2>{textElement("Certifications.LblCertifications")}</h2> */}
               <p>{textElement("Certifications.LblDescripcion")}</p>
 
               <Carousel

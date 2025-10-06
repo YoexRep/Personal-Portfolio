@@ -39,7 +39,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>{textElement("Skills.LblSkills")}</h2>
+              {/* <h2>{textElement("Skills.LblSkills")}</h2> */}
               <p>{textElement("Skills.LblDescripcion")}</p>
 
               <Carousel
