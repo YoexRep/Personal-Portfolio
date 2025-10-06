@@ -80,7 +80,7 @@ export const Banner = () => {
                     <span className="tagline">
                       {textElement("Banner.BtnWelcome")}
                     </span>
-                    <h1>
+                    <h1 style={{ fontSize: "2.3rem", fontWeight: 700 }}>
                       {textElement("Banner.LblGretting")}{" "}
                       <span
                         className="txt-rotate"
