@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.61f4b58c.css",
-    "main.js": "/Personal-Portfolio/static/js/main.6418b827.js",
+    "main.css": "/Personal-Portfolio/static/css/main.efac3602.css",
+    "main.js": "/Personal-Portfolio/static/js/main.9ca5ca18.js",
     "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/background.png": "/Personal-Portfolio/static/media/background.39ba13e43620d567af96.png",
     "static/media/dashboardAwsTerraform.webp": "/Personal-Portfolio/static/media/dashboardAwsTerraform.2ec422de55bf92fe56a8.webp",
@@ -40,12 +40,12 @@
     "index.html": "/Personal-Portfolio/index.html",
     "static/media/Youtube.svg": "/Personal-Portfolio/static/media/Youtube.8aafe5151e58a3e4135535f3da29deac.svg",
     "static/media/linkedin-logo.svg": "/Personal-Portfolio/static/media/linkedin-logo.2a9a4b8f32bee7a4d49a3564275d78ec.svg",
-    "main.61f4b58c.css.map": "/Personal-Portfolio/static/css/main.61f4b58c.css.map",
-    "main.6418b827.js.map": "/Personal-Portfolio/static/js/main.6418b827.js.map",
+    "main.efac3602.css.map": "/Personal-Portfolio/static/css/main.efac3602.css.map",
+    "main.9ca5ca18.js.map": "/Personal-Portfolio/static/js/main.9ca5ca18.js.map",
     "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61f4b58c.css",
-    "static/js/main.6418b827.js"
+    "static/css/main.efac3602.css",
+    "static/js/main.9ca5ca18.js"
   ]
 }
