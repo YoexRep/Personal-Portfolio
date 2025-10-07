@@ -19,7 +19,12 @@ export const Contact = () => {
     setIsSending(true); // Iniciar la animación de desaparición del botón
 
     emailjs
-      .sendForm("service_enbnrnc", "template_n04y04r", form.current, "hLwdesY-gXnXeFft7")
+      .sendForm(
+        "service_qry0p1s",
+        "template_n04y04r",
+        form.current,
+        "hLwdesY-gXnXeFft7"
+      )
       .then(
         () => {
           console.log("SUCCESS!");
@@ -47,7 +52,9 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <img
-                  className={isVisible ? "animate__animated animate__zoomIn" : ""}
+                  className={
+                    isVisible ? "animate__animated animate__zoomIn" : ""
+                  }
                   src={contactImg}
                   alt="Contact Us"
                 />
@@ -57,7 +64,11 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
                   <h2>{textElement("Contact.Title")}</h2>
                   <form ref={form} onSubmit={sendEmail}>
                     <Row>
@@ -91,13 +102,18 @@ export const Contact = () => {
                         {/* Botón con animación de desaparición solo cuando se hace clic en enviar */}
                         <button
                           type="submit"
-                          className={isSending ? "animate__animated animate__fadeOut" : ""}
+                          className={
+                            isSending
+                              ? "animate__animated animate__fadeOut"
+                              : ""
+                          }
                           style={{
                             animationDuration: "1s", // Duración de la animación
                             display: isSending ? "none" : "inline-block", // Ocultar el botón después de la animación
                           }}
                         >
-                          {textElement("Contact.BtnSend")} <ArrowRightCircle size={25} />
+                          {textElement("Contact.BtnSend")}{" "}
+                          <ArrowRightCircle size={25} />
                         </button>
                       </Col>
                     </Row>
